@@ -17,7 +17,7 @@ class TestController extends HttpController
     /**
      * @Action
      * @Route("/test")
-     *
+     *  测试
      * @return void
      */
     public function test() {
