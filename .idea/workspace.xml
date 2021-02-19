@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1168a6ce-611f-4b8c-8db6-7f7232f3708a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/yurunsoft/swoole-co-pool" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/yurunsoft/doctrine-annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/yurunsoft/imi" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1oeKDLSu2vofD8T7WEYkCR56CSQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1168a6ce-611f-4b8c-8db6-7f7232f3708a" name="Default Changelist" comment="" />
+      <created>1613641495458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613641495458</updated>
+      <workItem from="1613641496555" duration="2005000" />
+      <workItem from="1613698448806" duration="497000" />
+      <workItem from="1613703915896" duration="8290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="536" y="217" key="#Deployment" timestamp="1613730772699">
+      <screen x="0" y="23" width="1873" height="1057" />
+    </state>
+    <state x="536" y="217" key="#Deployment/0.23.1873.1057@0.23.1873.1057" timestamp="1613730772699" />
+    <state x="520" y="204" key="#SSH_Configurations" timestamp="1613730543281">
+      <screen x="0" y="23" width="1873" height="1057" />
+    </state>
+    <state x="520" y="204" key="#SSH_Configurations/0.23.1873.1057@0.23.1873.1057" timestamp="1613730543280" />
+    <state x="685" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613641592264">
+      <screen x="0" y="23" width="1873" height="1057" />
+    </state>
+    <state x="685" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1873.1057@0.23.1873.1057" timestamp="1613641592264" />
+  </component>
+</project>
