@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1168a6ce-611f-4b8c-8db6-7f7232f3708a" name="Default Changelist" comment="">
+    <list default="true" id="1168a6ce-611f-4b8c-8db6-7f7232f3708a" name="Default Changelist" comment="测试控制器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/ImiApp.app.init" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/ImiApp.app.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/ImiApp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/ImiApp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/changedFilesFile" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/changedFilesFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/imi-runtime-bak.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/imi-runtime-bak.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/runtime.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/runtime.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiServer/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/ApiServer/Controller/TestController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +36,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -66,6 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,8 +88,16 @@
       <workItem from="1613641496555" duration="2005000" />
       <workItem from="1613698448806" duration="497000" />
       <workItem from="1613703915896" duration="8290000" />
-      <workItem from="1613732334218" duration="37000" />
+      <workItem from="1613732334218" duration="7128000" />
     </task>
+    <task id="LOCAL-00001" summary="测试控制器">
+      <created>1613732383155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613732383155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +114,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试控制器" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试控制器" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="536" y="217" key="#Deployment" timestamp="1613730772699">
       <screen x="0" y="23" width="1873" height="1057" />
@@ -110,5 +131,9 @@
       <screen x="0" y="23" width="1873" height="1057" />
     </state>
     <state x="685" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1873.1057@0.23.1873.1057" timestamp="1613641592264" />
+    <state x="536" y="278" key="Vcs.Push.Dialog.v2" timestamp="1613785091862">
+      <screen x="0" y="23" width="1873" height="1057" />
+    </state>
+    <state x="536" y="278" key="Vcs.Push.Dialog.v2/0.23.1873.1057@0.23.1873.1057" timestamp="1613785091862" />
   </component>
 </project>
