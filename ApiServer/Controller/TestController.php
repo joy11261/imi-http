@@ -22,7 +22,7 @@ class TestController extends HttpController
      */
     public function test() {
         return [
-            'hello' =>  'test',
+            'hello' =>  'test11',
         ];
     }
 }
