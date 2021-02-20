@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1168a6ce-611f-4b8c-8db6-7f7232f3708a" name="Default Changelist" comment="测试控制器">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.runtime/changedFilesFile" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/changedFilesFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.runtime/logs/2021-02-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/.runtime/logs/2021-02-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.runtime/logs/2021-02-19.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1613641496555" duration="2005000" />
       <workItem from="1613698448806" duration="497000" />
       <workItem from="1613703915896" duration="8290000" />
-      <workItem from="1613732334218" duration="7230000" />
+      <workItem from="1613732334218" duration="7339000" />
     </task>
     <task id="LOCAL-00001" summary="测试控制器">
       <created>1613732383155</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613799730658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试控制器">
+      <created>1613799836230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613799836230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +141,10 @@
       <screen x="0" y="23" width="1873" height="1057" />
     </state>
     <state x="685" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1873.1057@0.23.1873.1057" timestamp="1613641592264" />
-    <state x="536" y="278" key="Vcs.Push.Dialog.v2" timestamp="1613799731995">
+    <state x="536" y="278" key="Vcs.Push.Dialog.v2" timestamp="1613799837306">
       <screen x="0" y="23" width="1874" height="1057" />
     </state>
     <state x="536" y="278" key="Vcs.Push.Dialog.v2/0.23.1873.1057@0.23.1873.1057" timestamp="1613785091862" />
-    <state x="536" y="278" key="Vcs.Push.Dialog.v2/0.23.1874.1057@0.23.1874.1057" timestamp="1613799731995" />
+    <state x="536" y="278" key="Vcs.Push.Dialog.v2/0.23.1874.1057@0.23.1874.1057" timestamp="1613799837306" />
   </component>
 </project>
