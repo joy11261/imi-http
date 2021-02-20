@@ -15,7 +15,7 @@ class IndexController extends HttpController
 {
     /**
      * @Action
-     * @Route("/")
+     * @Route(url="/")
      * @View(renderType="html")
      *
      * @return void
