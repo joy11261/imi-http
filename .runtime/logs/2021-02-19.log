@@ -56,7 +56,7 @@
 #2  Yurun\Doctrine\Common\Annotations\DocParser->Annotations() called at [/Users/yuwan/Downloads/project-http/vendor/yurunsoft/doctrine-annotations/lib/Doctrine/Common/Annotations/DocParser.php:359]
 #3  Yurun\Doctrine\Common\Annotations\DocParser->parse(/**
  * @Controller("/")
- * @View(baseDir="test/")
+ * @View(baseDir="test/")asdas
  */, class ImiApp\ApiServer\Controller\TestController) called at [/Users/yuwan/Downloads/project-http/vendor/yurunsoft/doctrine-annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:233]
 #4  Yurun\Doctrine\Common\Annotations\AnnotationReader->getClassAnnotations(object) called at [/Users/yuwan/Downloads/project-http/vendor/yurunsoft/imi/src/Bean/AnnotationParser.php:95]
 #5  Imi\Bean\AnnotationParser->parseClass(object) called at [/Users/yuwan/Downloads/project-http/vendor/yurunsoft/imi/src/Bean/AnnotationParser.php:62]
