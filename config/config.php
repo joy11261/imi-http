@@ -95,7 +95,7 @@ return [
                      'port'      => 6379,
                      'password'  => 'yuwan@2019',
                      // 是否自动序列化变量
-                      'serialize'    =>    true,
+                      'serialize'    =>    false,
                  ]
              ],
              'async'    =>    [
@@ -111,7 +111,7 @@ return [
                      'port'      => 6379,
                      'password'  => 'yuwan@2019',
                      // 是否自动序列化变量
-                      'serialize'    =>    true,
+                      'serialize'    =>    false,
                  ]
              ],
          ],

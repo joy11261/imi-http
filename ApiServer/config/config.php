@@ -41,10 +41,17 @@ return [
         ],
         'SessionRedis'    =>    [
             // Redis连接池名称
-            'poolName'    =>    '',
+            'poolName'    =>    'redis',
             // Redis中存储的key前缀，可以用于多系统session的分离
-            'keyPrefix'    =>    'imi:',
+            'keyPrefix'    =>    'imi:test:',
             'formatHandlerClass'    =>    \Imi\Util\Format\Json::class,
+        ],
+        // 使用 authorization 充当 session
+        \Imi\Server\Session\Middleware\HttpSessionMiddleware::class => [
+            'sessionIdHandler'    =>    function(\Imi\Server\Http\Message\Request $request){
+                // 举例，比如希望从 header 中获取
+                return $request->getHeaderLine('Authorization');
+            },
         ],
         'HttpDispatcher'    =>    [
             'middlewares'    =>    [
