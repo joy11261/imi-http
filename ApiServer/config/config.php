@@ -40,4 +40,12 @@ return [
             ],
         ]
     ],
+    'middleware' => [
+        'groups' => [
+            'test1' => [
+                'C',
+                'D',
+            ],
+        ],
+    ]
 ];
