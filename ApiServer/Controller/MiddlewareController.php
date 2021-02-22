@@ -51,7 +51,7 @@ class MiddlewareController extends HttpController
 
     /**
      * @Action
-     * 
+     * 分组中间件
      * @Middleware("@test1")
      *
      * @return void
