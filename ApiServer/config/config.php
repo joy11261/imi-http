@@ -4,10 +4,11 @@ use Imi\Log\LogLevel;
 return [
     'configs'    =>    [
     ],
-    // bean扫描目录
+    // bean扫描目录   增加一个bean时  需要在这里加入命名空间  否则扫描不到这个bean
     'beanScan'    =>    [
         'ImiApp\ApiServer\Controller',
         'ImiApp\ApiServer\Middleware',
+        'ImiApp\ApiServer\Validation',
     ],
     'beans'    =>    [
         'SessionManager'    =>    [
