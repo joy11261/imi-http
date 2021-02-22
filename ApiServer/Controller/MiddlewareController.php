@@ -29,6 +29,17 @@ class MiddlewareController extends HttpController
     /**
      * @Action
      *
+     * return void
+     */
+    public function index() {
+        return [
+            'data' => 'index'
+        ];
+    }
+
+    /**
+     * @Action
+     *
      * @return void
      */
     public function test2()

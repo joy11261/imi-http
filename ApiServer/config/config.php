@@ -7,6 +7,7 @@ return [
     // bean扫描目录
     'beanScan'    =>    [
         'ImiApp\ApiServer\Controller',
+        'ImiApp\ApiServer\Middleware',
     ],
     'beans'    =>    [
         'SessionManager'    =>    [
@@ -24,6 +25,7 @@ return [
         'HttpDispatcher'    =>    [
             'middlewares'    =>    [
                 \ImiApp\ApiServer\Middleware\PoweredBy::class,
+                \ImiApp\ApiServer\Middleware\Index::class,
                 \Imi\Server\Session\Middleware\HttpSessionMiddleware::class,
                 \Imi\Server\Http\Middleware\RouteMiddleware::class,
             ],
