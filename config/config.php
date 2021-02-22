@@ -81,36 +81,40 @@ return [
         //         ],
         //     ]
         // ],
-        // 'redis'    =>    [
-        //     'sync'    =>    [
-        //         'pool'    =>    [
-        //             'class'        =>    \Imi\Redis\SyncRedisPool::class,
-        //             'config'    =>    [
-        //                 'maxResources'    =>    10,
-        //                 'minResources'    =>    0,
-        //             ],
-        //         ],
-        //         'resource'    =>    [
-        //             'host'      => '127.0.0.1',
-        //             'port'      => 6379,
-        //             'password'  => null,
-        //         ]
-        //     ],
-        //     'async'    =>    [
-        //         'pool'    =>    [
-        //             'class'        =>    \Imi\Redis\CoroutineRedisPool::class,
-        //             'config'    =>    [
-        //                 'maxResources'    =>    10,
-        //                 'minResources'    =>    0,
-        //             ],
-        //         ],
-        //         'resource'    =>    [
-        //             'host'      => '127.0.0.1',
-        //             'port'      => 6379,
-        //             'password'  => null,
-        //         ]
-        //     ],
-        // ],
+         'redis'    =>    [
+             'sync'    =>    [
+                 'pool'    =>    [
+                     'class'        =>    \Imi\Redis\SyncRedisPool::class,
+                     'config'    =>    [
+                         'maxResources'    =>    10,
+                         'minResources'    =>    0,
+                     ],
+                 ],
+                 'resource'    =>    [
+                     'host'      => '127.0.0.1',
+                     'port'      => 6379,
+                     'password'  => 'yuwan@2019',
+                     // 是否自动序列化变量
+                      'serialize'    =>    true,
+                 ]
+             ],
+             'async'    =>    [
+                 'pool'    =>    [
+                     'class'        =>    \Imi\Redis\CoroutineRedisPool::class,
+                     'config'    =>    [
+                         'maxResources'    =>    10,
+                         'minResources'    =>    0,
+                     ],
+                 ],
+                 'resource'    =>    [
+                     'host'      => '127.0.0.1',
+                     'port'      => 6379,
+                     'password'  => 'yuwan@2019',
+                     // 是否自动序列化变量
+                      'serialize'    =>    true,
+                 ]
+             ],
+         ],
     ],
 
     // 数据库配置
