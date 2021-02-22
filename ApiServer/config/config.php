@@ -38,7 +38,15 @@ return [
                 'html',
                 'php'
             ],
-        ]
+        ],
+        'HttpErrorHandler'    =>    [
+            // 指定默认处理器
+            'handler'    =>   \ImiApp\ApiServer\ErrorHandler\MyErrorHandler::class,
+        ],
+        'HttpNotFoundHandler'    =>    [
+            // 指定默认处理器
+            'handler'    =>    \ImiApp\ApiServer\ErrorHandler\MyNotFondHandler::class,
+        ],
     ],
     'middleware' => [
         'groups' => [

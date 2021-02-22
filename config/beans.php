@@ -53,4 +53,7 @@ return [
             ]
         ],
     ],
+    'ErrorLog' => [
+        'level' => E_ALL,
+    ]
 ];
