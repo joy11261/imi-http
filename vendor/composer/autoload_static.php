@@ -30,8 +30,13 @@ class ComposerStaticInita7fbca837e32ca0de9253b875f1f57de
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
+        'L' => 
+        array (
+            'Lcobucci\\JWT\\' => 13,
+        ),
         'I' => 
         array (
+            'Imi\\JWT\\' => 8,
             'Imi\\' => 4,
             'ImiApp\\' => 7,
         ),
@@ -75,6 +80,14 @@ class ComposerStaticInita7fbca837e32ca0de9253b875f1f57de
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
+        'Imi\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/imiphp/imi-jwt/src',
         ),
         'Imi\\' => 
         array (

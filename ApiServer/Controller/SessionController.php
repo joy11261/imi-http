@@ -6,6 +6,8 @@ use Imi\Server\Route\Annotation\Route;
 use Imi\Server\Route\Annotation\Action;
 use Imi\Server\Route\Annotation\Controller;
 use Imi\Server\Session\Session;
+use \Imi\JWT\Facade\JWT;
+use Imi\JWT\Annotation\JWTValidation;
 
 /**
  * @Controller("/session/")
@@ -19,9 +21,17 @@ class SessionController extends HttpController
      * 
      * @return void
      */
-    public function status()
+    public function status($jwt)
     {
         $username = Session::get('username');
+
+        $token = JWT::parseToken($jwt); // 仅验证是否合法
+
+        $data = $token->getClaim('data');
+
+
+        $username = $data->username ?? null;
+
         return [
             'isLogin'   =>  null !== $username,
             'username'  =>  $username,
@@ -39,11 +49,18 @@ class SessionController extends HttpController
      */
     public function login($username, $password)
     {
-        if('imi' === $username && '123456' === $password)
+        if('123456' === $password)
         {
-            Session::set('username', $username);
+            $data = [
+                'username'  =>  $username,
+            ];
+            //JWT签发
+            $token = JWT::getToken($data)->__toString();
+
+
             return [
                 'success'   =>  true,
+                'token'     =>  $token,
             ];
         }
         else
@@ -95,6 +112,24 @@ class SessionController extends HttpController
         $storeVCode = Session::once('vcode');
         return [
             'success'   =>  $storeVCode === $vcode,
+        ];
+    }
+
+    /**
+     * 登录状态2
+     * @Action
+     *
+     * @JWTValidation(tokenParam="token", dataParam="data")
+     *
+     * @return void
+     */
+    public function status2($token = null , $data = null) {
+
+        $username = $data->username ?? null;
+
+        return [
+            'isLogin'   =>  null !== $username,
+            'username'  =>  $username,
         ];
     }
 

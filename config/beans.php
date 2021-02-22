@@ -55,5 +55,27 @@ return [
     ],
     'ErrorLog' => [
         'level' => E_ALL,
-    ]
+    ],
+    'JWT'   =>  [
+        'list'  =>  [
+            // a 为名称，可以自定义，以下被注释的项为非必设，一般有默认值
+            'test' =>  [
+                // 'signer'    =>  'Hmac',      // 签名者，可选：Ecdsa/Hmac/Rsa
+                // 'algo'      =>  'Sha256',    // 算法，可选：Sha256/Sha384/Sha512
+                // 'dataName'  =>  'data',      // 自定义数据字段名，放你需要往token里丢的数据
+                // 'audience'  =>  null,        // 接收，非必须
+                // 'subject'   =>  null,        // 主题，非必须
+                // 'expires'   =>  null,        // 超时秒数，非必须
+                // 'issuer'    =>  null,        // 发行人，非必须
+                // 'notBefore' =>  null,        // 实际日期必须大于等于本值
+                // 'issuedAt'  =>  true,        // JWT 发出时间。设为 true 则为当前时间；设为 false 不设置；其它值则直接写入
+                // 'id'        =>  null,        // Token id
+                // 'headers'   =>  [],          // 头
+                // 自定义获取 token 回调，返回值为 Token。默认从 Header Authorization 中获取。
+                // 'tokenHandler'  =>  null,
+                'privateKey'    =>  '123456',// 私钥
+                'publicKey'     =>  '123456',// 公钥
+            ],
+        ],
+    ],
 ];

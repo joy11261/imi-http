@@ -14,6 +14,8 @@ return array(
     'Psr\\Http\\Server\\' => array($vendorDir . '/psr/http-server-handler/src', $vendorDir . '/psr/http-server-middleware/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Lcobucci\\JWT\\' => array($vendorDir . '/lcobucci/jwt/src'),
+    'Imi\\JWT\\' => array($vendorDir . '/imiphp/imi-jwt/src'),
     'Imi\\' => array($vendorDir . '/yurunsoft/imi/src'),
     'ImiApp\\' => array($baseDir . '/'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),

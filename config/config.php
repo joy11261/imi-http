@@ -16,6 +16,7 @@ return [
 
     // 组件命名空间
     'components'    =>  [
+        'jwt'    =>  'Imi\JWT',
     ],
 
     // 主服务器配置
